@@ -6,6 +6,8 @@ git add .
 
 read -p 'Enter commit message: ' message
 
+if [ -z $message ] ; then message="Some changes happend" ; fi
+
 git commit -m "$message"
 
 read -p 'Enter desired remote branch: ' push
