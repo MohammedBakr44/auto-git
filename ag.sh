@@ -12,6 +12,6 @@ read -p 'Enter desired remote branch: ' push
 
 if [ -z $push ] ; then push="origin master" ; fi
 
-git push $push
+git push $push --force
 
 echo "شكراً لإستخدامكم ag"
