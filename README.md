@@ -34,7 +34,7 @@ In order to do that you have to copy the file `ag` to a folder in your path.
 
 Start with `echo $PATH` to get folders in your $PATH each one separated by `:` . You should see something like `usr/bin` or `usr/local/bin` in the output. In my case I found `usr/local/bin`.
 
-Then you have to run the following command `sudo cp ag usr/local/bin` (it may ask for your password) to copy the file ag to `usr/local/bin`. You have to be super user because you're doing a copy to one of the system folders, if you don't like to do that; just use the first method to run it locally(or check the files it's up there). After that you can run `ag` from any directory and it will be working fine.
+Then you have to run the following command `sudo cp ag usr/local/bin` (it may ask for your password) to copy the file ag to `usr/local/bin`. You have to be super user because you're copying a file into one of system folders, if you don't like to do that; just use the first method to run it locally(or check the files it's up there). After that you can run `ag` from any directory and it will be working fine.
 
 
 # Usage
