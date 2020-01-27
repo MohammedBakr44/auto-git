@@ -18,5 +18,3 @@ if [ -z $force ]
 then git push $push 
 else git push $push --force 
 fi
-
-read
