@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo 'Hello sir, hope your day is going well'
+echo 'Hello sir, hope your day is going well.'
 
 git add .
 

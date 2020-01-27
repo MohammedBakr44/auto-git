@@ -16,7 +16,7 @@ every bit of seconds, so I created this CLI to make it easier.
 
 # How?
 
-It's simple, first there's two versions. one with .sh and without.
+It's simple, first there's two versions. one with .sh and one without.
 If you want to use the script locally just use `ag.sh`.
 
 ## Using the script locally
@@ -46,3 +46,7 @@ Firstly: You have to enter the commit message, if you're lazy to type a message 
 Secondly: You have to enter the remote and the branch you want to push into, default is `origin master`. If you want to push to `origin master` leave it blank and press `Enter`.
 
 Thirdly: You have to specify if you want to use force flag `--force` or not, default is no, to use the default just leave it blank and press Enter.
+
+# last words
+
+I would like to share this book/wesbite because it helped me doing this: https://www.tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html.
