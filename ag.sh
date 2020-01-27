@@ -12,6 +12,6 @@ read -p 'Enter desired remote branch: ' push
 
 if [ -z $push ] ; then push="origin master" ; fi
 
-git push $push --force
+read -p 'Force update?[Y/n] default is no' force
 
-echo "شكراً لإستخدامكم ag"
+if [ -z $force ] ; then git push $push else git push $push --force ; fi
